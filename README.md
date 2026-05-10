@@ -6,10 +6,23 @@
 
 | 工具 | 版本 | 安裝方式（Windows） |
 |------|------|---------------------|
-| Python | 3.12.x | `scoop install versions/python312` |
+| Python | 3.12.x | 見下方 Python 安裝 |
 | Git | 2.x | `scoop install git` |
 
 > Python 3.13 / 3.14 也許能跑，但 3.12 是目前最穩的 LTS 級版本，新環境一律用這個。
+
+### Python 安裝（Windows / scoop）
+
+`python312` 在 scoop 的 `versions` bucket 裡，預設沒加，要先加 bucket：
+
+```powershell
+scoop bucket add versions
+scoop install versions/python312
+
+# 把 `python` 指向 3.12（如果系統已經裝過其他版本）
+scoop reset python312
+python --version   # 應顯示 Python 3.12.x
+```
 
 ## 第一次設定
 
