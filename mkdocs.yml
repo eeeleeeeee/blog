@@ -10,6 +10,7 @@ theme:
     logo: material/elephant
   features:
     - navigation.tabs
+    - navigation.indexes
     - navigation.tracking
     - navigation.top
     - toc.follow
@@ -22,4 +23,5 @@ plugins:
 
 nav:
   - Home: index.md
-  - Blog: blog/index.md
+  - Blog:
+      - blog/index.md
