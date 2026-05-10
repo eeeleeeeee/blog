@@ -3,6 +3,9 @@ site_url: https://eeeleeeeee.github.io/blog/
 
 theme:
   name: material
+  font:
+    text: Noto Sans TC
+    code: JetBrains Mono
   icon:
     logo: material/elephant
   features:
