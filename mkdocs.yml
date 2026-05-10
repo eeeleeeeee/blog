@@ -1,14 +1,21 @@
-site_name: My Blog
+site_name: ele blog
 site_url: https://eeeleeeeee.github.io/blog/
 
 theme:
   name: material
+  icon:
+    logo: material/elephant
+  features:
+    - navigation.tabs
+    - navigation.tracking
+    - navigation.top
+    - toc.follow
 
 plugins:
   - search
-  - blog
+  - blog:
+      archive: false
 
 nav:
   - Home: index.md
-  - Blog:
-      - blog/index.md
+  - Blog: blog/index.md

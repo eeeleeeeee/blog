@@ -1,9 +1,3 @@
-# Hello from set-content
+# Home
 
-fresh write
-from claude test
-edit at 15:38:38
-edit at 15:39:49
-edit at 15:41:32
-dsadsadsaddsadpost-fix edit
-sdasdasds
+Welcome to ele blog.
