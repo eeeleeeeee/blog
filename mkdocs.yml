@@ -1,5 +1,12 @@
 site_name: ele blog
 site_url: https://eeeleeeeee.github.io/blog/
+copyright: Copyright &copy; <span class="copyright-year">2026</span> ele
+
+extra:
+  generator: false
+
+extra_javascript:
+  - javascripts/copyright-year.js
 
 theme:
   name: material
