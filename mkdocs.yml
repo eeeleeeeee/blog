@@ -39,9 +39,25 @@ theme:
 
 plugins:
   - search
+  - heti
+  - glightbox
+  - mermaid2
   - blog:
       archive: false
       post_url_format: "{slug}"
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+      htmlmin_opts:
+        remove_comments: true
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:mermaid2.fence_mermaid_custom
 
 nav:
   - Home: index.md
