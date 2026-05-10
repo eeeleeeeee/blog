@@ -1,0 +1,6 @@
+# MkDocs Material 與相依套件
+mkdocs-material==9.*
+
+# click 8.3 之後 mkdocs serve 的 --livereload 預設變 False（檔案監看完全不會啟動）
+# 鎖在 8.3 之前就不需要每次都加 --livereload 的 flag
+click<8.3

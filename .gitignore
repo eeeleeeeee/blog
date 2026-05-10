@@ -1,0 +1,28 @@
+# Python 虛擬環境
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# MkDocs 建置產物
+/site/
+
+# MkDocs Material 快取（社交卡、圖片優化等）
+.cache/
+
+# 編輯器與 AI 助手個人設定
+.vscode/
+.idea/
+.claude/
+*.swp
+
+# 作業系統產物
+Thumbs.db
+.DS_Store
+
+# 機密資訊（保險起見，永遠不要追蹤）
+.env
+.env.*
+*.key
+*.pem

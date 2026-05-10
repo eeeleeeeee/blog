@@ -1,0 +1,14 @@
+site_name: My Blog
+site_url: https://eeeleeeeee.github.io/blog/
+
+theme:
+  name: material
+
+plugins:
+  - search
+  - blog
+
+nav:
+  - Home: index.md
+  - Blog:
+      - blog/index.md
