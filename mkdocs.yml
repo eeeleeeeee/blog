@@ -8,6 +8,21 @@ theme:
     code: JetBrains Mono
   icon:
     logo: material/elephant
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: grey
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: 切換成深色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: grey
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: 切換成淺色模式
   features:
     - navigation.tabs
     - navigation.indexes
