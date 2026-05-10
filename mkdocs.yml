@@ -15,6 +15,7 @@ plugins:
   - search
   - blog:
       archive: false
+      post_url_format: "{slug}"
 
 nav:
   - Home: index.md
